@@ -1,0 +1,109 @@
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #333;
+}
+
+input[type="submit"] {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #288EC8;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+input[type="button"] {
+    background-color: linear-gradient(to bottom right, grey, black);
+    border: solid black 2px;
+    width: 100%;
+}
+
+h1 {
+    margin-top: 1.5%;
+    color: #288EC8;
+    text-align: center;
+}
+
+h5 {
+    margin-top: 1%;
+    font-weight: bold
+}
+
+/* #graph{
+    position:absolute;
+    width:40vw;
+    height:35vw;
+    left:48vw;
+    top:53vw;
+    z-index: 2;
+    
+} */
+
+/* .graphclass{
+    margin-top:0%;
+    margin-bottom:3%;
+    
+    margin-left:5%;
+
+} */
+#chartContainer{
+    display: block;
+    margin-top:1%;
+    margin-bottom:35%;
+    margin-left:5%;
+    width:80%;
+    
+} 
+
+.claculator {
+    position:absolute;
+    top: 35rem;
+    margin-left: 5%;
+    
+    box-shadow: 4px 0px 8px 0px rgb(164, 198, 82), -1px 0px 17px 0px grey, 0px -3px 10px 0px rgb(164, 198, 82);
+
+}
+
+.Questions {
+    position:absolute;
+    top:50rem;
+    margin-left: 5%;
+}
+
+input[type="submit"]:hover {
+    background-color: #A9A9A9;
+}
+
+
+@media screen and (max-width: 600px) {
+    input[type="button"],
+    input[type="submit"] {
+        font-size: 3.5vw;
+    }
+    #flexi {
+        display: block;
+    }
+    #entr {
+        display: block;
+        width: 50%;
+        margin-left: 15%;
+    }
+    /* .claculator {
+        box-shadow: none;
+        box-shadow: 4px 0px 8px 0px rgb(164, 198, 82)
+    } */
+    #plot2 {
+        display: table;
+        height: 400px;
+        width: 800px;
+        overflow: scroll;
+    }
+    .claculator {
+        margin: 0;
+    }
+}
