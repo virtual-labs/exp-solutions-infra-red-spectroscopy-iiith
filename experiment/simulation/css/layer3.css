@@ -4,15 +4,12 @@
 
 #allobjects {
     position: relative;
+    left: 0rem;
+    top: -12rem;
 }
 
 #allobjects>* {
     position: absolute;
-}
-
-#allobjects {
-    left: 0rem;
-    top: -12rem;
 }
 
 #createcircle {
