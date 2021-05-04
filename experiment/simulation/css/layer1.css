@@ -6,14 +6,13 @@ body {
 #layer1 {
     position: relative;
     z-index: 20;
+    opacity: 0;
+    top: 2rem;
 }
 #layer1 > * {
     position: absolute;
 }
-#layer1 {
-    opacity: 0;
-    top: 2rem;
-}
+
 #solprep {
     position: relative;
 }
