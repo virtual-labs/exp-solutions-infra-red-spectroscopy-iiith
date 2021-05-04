@@ -1,0 +1,21 @@
+[{
+        "question": "The most effective method of IR spectroscopy is the:",
+        "answers": {
+            "a": " Dispersion spectrometer",
+            "b": " Reflection spectrometer",
+            "c": " Deflection spectrometer",
+            "d": " Fourier-Transform spectrometer"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": " Infrared spectroscopy provides valuable information about",
+        "answers": {
+            "a": " functional groups",
+            "b": " molecular weight",
+            "c": " Physical properties",
+            "d": " chemical properties"
+        },
+        "correctAnswer": "a"
+    }
+]

@@ -1,0 +1,21 @@
+[{
+        "question": "What determines the intensity of an IR peak absorption in an IR spectrum?",
+        "answers": {
+            "a": " the change in polarizability during vibration",
+            "b": " the change in bond length during vibration",
+            "c": " the change in dipole moment during vibration",
+            "d": " the molecular weight of the bonding atoms "
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": " Materials made of glass are not used for IR measurement because:",
+        "answers": {
+            "a": " undergo scattering.",
+            "b": " strongly absorb through out the IR region of the spectrum.",
+            "c": " do not absorb through out the IR region of the spectrum.",
+            "d": " remains unaltered."
+        },
+        "correctAnswer": "b"
+    }
+]
