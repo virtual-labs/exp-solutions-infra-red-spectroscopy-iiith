@@ -5,7 +5,7 @@ body {
 
 #layer1 {
     position: relative;
-    z-index: 90;
+    z-index: 80;
     opacity: 0;
     top: 2rem;
 }
