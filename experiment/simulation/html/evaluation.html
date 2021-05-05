@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/evaluation.css">
+
+        <script src="https://unpkg.com/mathjs@9.2.0/lib/browser/math.js"></script>
+    </head>
+
+    <body>
+
+        <div class="conti">
+
+            <div class=" columns is-mobile is-centered">
+                <div class="column has-text-centered ">
+                    <h1> Evaluation</h1>
+                    <div id="chart-container"></div>
+                </div>
+            </div>
+
+
+            <div style="overflow-x:auto;" class="table-responsive  ">
+                <table border="1" class="calculator">
+                    <tr>
+                        <td colspan="3"><input type="text" id="result" /></td>
+                        <td><input type="button" value="c" onclick="clr()" /> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="1" onclick="dis('1')" /> </td>
+                        <td><input type="button" value="2" onclick="dis('2')" /> </td>
+                        <td><input type="button" value="3" onclick="dis('3')" /> </td>
+                        <td><input type="button" value="/" onclick="dis('/')" /> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="4" onclick="dis('4')" /> </td>
+                        <td><input type="button" value="5" onclick="dis('5')" /> </td>
+                        <td><input type="button" value="6" onclick="dis('6')" /> </td>
+                        <td><input type="button" value="-" onclick="dis('-')" /> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="7" onclick="dis('7')" /> </td>
+                        <td><input type="button" value="8" onclick="dis('8')" /> </td>
+                        <td><input type="button" value="9" onclick="dis('9')" /> </td>
+                        <td><input type="button" value="+" onclick="dis('+')" /> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="." onclick="dis('.')" /> </td>
+                        <td><input type="button" value="0" onclick="dis('0')" /> </td>
+                        <td><input type="button" value="=" onclick="solve()" /> </td>
+                        <td><input type="button" value="*" onclick="dis('*')" /> </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="questions ">
+
+                <h5> Provide values for the stretching frequencies from the spectrum.</h5>
+                <div id="ques-ans">
+                    <table border="0" cellpadding="5" id="ques-1">
+                        <tbody>
+                            <tr>
+                                <td id="flexi">
+                                    Q1. OH-stretching of Caroxylic Acid
+                                </td>
+                            </tr>
+                            <tr id="qans-1">
+                                <td id="flexi"> Ans: <input id="ans-1" type="text" /></td>
+                                <td id="entr"><input onclick="checkAnsInRangeAndAddImage('ans-1','#qans-1',3071,3081);"
+                                        type="submit" value="Submit Answer" /></td>
+                            </tr>
+
+                            <tr>
+                                <td id="flexi">
+                                    Q2. C-H stretching of methyl.
+                                </td>
+                            </tr>
+                            <tr id="qans-2">
+                                <td id="flexi"> Ans: <input id="ans-2" type="text" /></td>
+                                <td id="entr"> <input onclick="checkAnsInRangeAndAddImage('ans-2','#qans-2',2969,2979);"
+                                        type="submit" value="Submit Answer" /></td>
+                            </tr>
+
+                            <tr>
+                                <td id="flexi">
+                                    Q3. C==O stretching of Caroxylic Acid
+                                </td>
+                            </tr>
+                            <tr id="qans-3">
+                                <td id="flexi"> Ans: <input id="ans-3" type="text" /></td>
+                                <td id="entr"> <input onclick="checkAnsInRangeAndAddImage('ans-3','#qans-3',1764,1774);"
+                                        type="submit" value="Submit Answer" /></td>
+                            </tr>
+
+                            <tr>
+                                <td id="flexi">
+                                    Q4. C-O stretching of carboxylic acid.
+                                </td>
+                            </tr>
+                            <tr id="qans-4">
+                                <td id="flexi"> Ans: <input id="ans-4" type="text" /></td>
+                                <td id="entr"> <input onclick="checkAnsInRangeAndAddImage('ans-4','#qans-4',1169,1179);"
+                                        type="submit" value="Submit Answer" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+        <script type="text/javascript" src="../js/evaluation.js"></script>
+    </body>
+
+</html>
