@@ -1,5 +1,6 @@
 #layer3 {
     opacity: 0;
+    z-index: 40;
 }
 
 #line1 {
