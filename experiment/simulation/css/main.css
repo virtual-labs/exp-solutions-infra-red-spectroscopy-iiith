@@ -5,8 +5,6 @@ body {
 
 #message {
     font-size:xx-large;
-    /* position: absolute;
-    top: 0.2rem; */
     border-style: solid;
     border-color: rgb(151, 210, 61);
     border-radius: 1rem;
@@ -27,5 +25,5 @@ body {
 }
 
 #layer0 {
-    z-index: 10;
+    z-index: 100;
 }

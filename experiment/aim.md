@@ -3,4 +3,4 @@ Infrared spectroscopy or IR spectroscopy is the technique that involves the infr
 	 	      [image](images/figure1_intro_exp7.png)
 
 
-Picture source: [ http://www.rediris.ca/infrared.htm](http://www.rediris.ca/infrared.html)
+Picture source: [ Infrared](https://www.rediris.ca/infrared.html)

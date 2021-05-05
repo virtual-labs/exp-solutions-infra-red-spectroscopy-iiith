@@ -2,237 +2,612 @@
     opacity: 0;
 }
 
-#allobjects {
-    position: relative;
-}
-
-#allobjects>* {
+#line1 {
     position: absolute;
+    top: 32.2rem;
+    height: 0.5rem;
+    width: 10rem;
+    left: 10.6rem;
+    background-color: rgb(231, 231, 125);
+    opacity: 0;
+    z-index: 2;
 }
 
-#allobjects {
-    left: 0rem;
-    top: -12rem;
-}
-
-#createcircle {
+#line2 {
     position: absolute;
-    top: 24rem;
-    height: 30rem;
-    width: 50rem;
-    left: 21rem;
-    background-color: rgb(37, 37, 37);
-    border-radius: 60%;
+    top: 32.2rem;
+    height: 0.5rem;
+    width: 14.3rem;
+    left: 20.6rem;
+    background-color: rgb(231, 231, 125);
+    opacity: 0;
+    z-index: 2;
+}
+
+#fixed-mirror-heading {
+    position: absolute;
+    font-size: 2.5rem;
+    left: 46.5rem;
+    top: 5.4rem;
+}
+
+#ir-heading {
+    position: absolute;
+    font-size: 2.5rem;
+    left: 2.5rem;
+    top: 23.4rem;
+}
+
+#moveable-mirror-heading {
+    position: absolute;
+    font-size: 2.5rem;
+    left: 56.8rem;
+    top: 20.3rem;
+}
+
+#beam-splitter-heading {
+    position: absolute;
+    font-size: 2.5rem;
+    left: 21.7rem;
+    top: 34.3rem;
+}
+
+#detector-heading {
+    position: absolute;
+    font-size: 2.5rem;
+    left: 42.7rem;
+    top: 54.3rem;
+    width: 5rem;
+}
+
+#line-up1 {
+    position: absolute;
+    top: 15.7rem;
+    height: 11.8rem;
+    width: 0.5rem;
+    left: 36rem;
+    background-color: rgb(231, 231, 125);
+    opacity: 0;
+    z-index: 2;
+}
+
+#line-up2 {
+    position: absolute;
+    top: 8.7rem;
+    height: 7.5rem;
+    width: 0.5rem;
+    left: 36rem;
+    background-color: rgb(231, 231, 125)/*red*/
+    ;
+    opacity: 0;
+    z-index: 2;
+}
+
+#line-right1 {
+    position: absolute;
+    top: 32.2rem;
+    height: 0.5rem;
+    width: 15rem;
+    left: 38.6rem;
+    background-color: rgb(231, 231, 125);
+    opacity: 0;
+    z-index: 2;
+}
+
+#line-right2 {
+    position: absolute;
+    top: 32.2rem;
+    height: 0.5rem;
+    width: 10.4rem;
+    left: 53.6rem;
+    background-color: rgb(231, 231, 125);
+    opacity: 0;
+    z-index: 2;
+}
+
+#line-down1 {
+    position: absolute;
+    top: 37.3rem;
+    height: 8rem;
+    width: 0.5rem;
+    left: 37rem;
+    background-color: rgb(231, 231, 125);
+    opacity: 0;
+    z-index: 2;
+}
+
+#line-down2 {
+    position: absolute;
+    top: 45.3rem;
+    height: 7.7rem;
+    width: 0.5rem;
+    left: 37rem;
+    background-color: rgb(231, 231, 125);
+    opacity: 0;
+    z-index: 2;
+}
+
+#fixed-mirror {
+    position: absolute;
+    top: 5rem;
+    height: 3.7rem;
+    width: 16rem;
+    left: 29rem;
     opacity: 1;
     z-index: 2;
 }
 
-#stand {
+#beam-splitter {
     position: absolute;
-    top: 31.9rem;
-    height: 13.2rem;
-    width: 26rem;
-    left: 32.97rem;
+    top: 25rem;
+    height: 13rem;
+    width: 8rem;
+    left: 32.5rem;
     opacity: 1;
-    z-index: 3;
+    z-index: 2;
 }
 
-#singlestand {
+#ir {
     position: absolute;
-    top: 36.6rem;
-    height: 5.7rem;
-    width: 1.2rem;
-    left: 44.45rem;
+    top: 28.4rem;
+    height: 8rem;
+    width: 8rem;
+    left: 2.9rem;
     opacity: 1;
-    z-index: 5;
+    z-index: 2;
 }
 
-#movable {
+#mirror1 {
     position: absolute;
-    top: 30rem;
-    height: 6rem;
-    width: 3.6rem;
-    left: 44rem;
+    top: 23.9rem;
+    height: 13.5rem;
+    width: 15.5rem;
+    left: 57.5rem;
     opacity: 1;
-    transform: rotateY(29deg);
-    z-index: 4;
+    z-index: 2;
 }
 
-#scanner {
+#detector {
     position: absolute;
-    top: 65.6rem;
-    height: 25rem;
-    width: 45rem;
-    left: 23.3rem;
+    top: 53rem;
+    height: 12rem;
+    width: 8rem;
+    left: 33.8rem;
     opacity: 1;
-    border-radius: 0 0 1rem 1rem;
+    z-index: 2;
 }
 
-#startbutton {
-    position: absolute;
-    left: 1rem;
-    color: white;
-    background-color: #288EC8;
-    border-radius: 5rem;
-    font-size: 3.5rem;
-    height: 5rem;
-    width: 10rem;
-    left: 40rem;
-    border: none;
-    top: 13rem;
-    z-index: 3;
-}
-
-#startbutton:hover {
-    background-color: #A9A9A9;
-}
-
-@media screen and (max-width: 1400px) {
-    #allobjects {
-        left: -5rem;
+@media screen and (max-width: 1315px) {
+    #fixed-mirror-heading {
+        font-size: 2.5rem;
+        left: 35rem;
+        top: 5.4rem;
     }
-}
-
-@media screen and (max-width: 1130px) {
-    #createcircle {
-        top: 20rem;
-        height: 20rem;
-        width: 28rem;
-        left: 21rem;
-        border-radius: 60%;
-    }
-    #singlestand {
-        top: 28.6rem;
-        height: 4.4rem;
-        width: 0.6rem;
-        left: 34.2rem;
-    }
-    #movable {
-        top: 23rem;
-        height: 3.8rem;
-        width: 2rem;
-        left: 33.8rem;
-        transform: rotateY(29deg);
-    }
-    #stand {
-        top: 24.9rem;
-        height: 10.2rem;
-        width: 16rem;
-        left: 26.97rem;
-        opacity: 1;
-    }
-    #scanner {
-        top: 47.6rem;
-        height: 19rem;
-        width: 30rem;
-        left: 20.3rem;
-        border-radius: 0 0 1rem 1rem;
-    }
-    #startbutton {
-        font-size: 2rem;
-        top: 11rem;
-        left: 30rem;
-        width: 8rem;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    #allobjects {
-        left: -5rem;
-    }
-}
-
-@media screen and (max-width: 935px) {
-    #allobjects {
-        left: -20rem;
-    }
-}
-
-@media screen and (max-width: 730px) {
-    #createcircle {
-        top: 20rem;
-        height: 20rem;
-        width: 23rem;
-        left: 21rem;
-        border-radius: 60%;
-    }
-    #singlestand {
-        top: 28.6rem;
-        height: 4.4rem;
-        width: 0.6rem;
-        left: 31.7rem;
-    }
-    #movable {
-        top: 23rem;
-        height: 3.3rem;
-        width: 2rem;
-        left: 31.8rem;
-        transform: rotateY(29deg);
-    }
-    #stand {
-        top: 24.9rem;
-        height: 10.2rem;
-        width: 16rem;
-        left: 24.5rem;
-    }
-    #scanner {
-        top: 45.6rem;
-        height: 17rem;
-        width: 22rem;
-        left: 20.3rem;
-        border-radius: 0 0 1rem 1rem;
-    }
-    #startbutton {
-        font-size: 2rem;
-        height: 3.5rem;
-        top: 12rem;
-        left: 27rem;
-    }
-}
-
-@media screen and (max-width: 570px) {
-    #createcircle {
-        top: 18rem;
-        height: 20rem;
-        width: 10rem;
-        left: 22rem;
-        border-radius: 60%;
-        z-index: 5;
-    }
-    #singlestand {
-        top: 25.8rem;
-        height: 3.6rem;
-        width: 0.4rem;
-        left: 26.6rem;
-        z-index: 9;
-    }
-    #movable {
+    #ir-heading {
+        font-size: 2.5rem;
+        left: 1.7rem;
         top: 21rem;
-        height: 3rem;
-        width: 1.3rem;
-        left: 26.5rem;
-        transform: rotateY(29deg);
-        z-index: 7;
     }
-    #stand {
-        top: 22.9rem;
-        height: 8.2rem;
+    #moveable-mirror-heading {
+        font-size: 2.5rem;
+        left: 40.8rem;
+        top: 15.3rem;
+    }
+    #beam-splitter-heading {
+        font-size: 2.5rem;
+        width: 5rem;
+        left: 14rem;
+        top: 29.3rem;
+    }
+    #detector-heading {
+        font-size: 2.5rem;
+        left: 34.2rem;
+        top: 46.3rem;
+        width: 5rem;
+    }
+    #line1 {
+        top: 27.3rem;
+        height: 0.5rem;
+        width: 7.4rem;
+        left: 7.6rem;
+    }
+    #line2 {
+        top: 27.3rem;
+        height: 0.5rem;
+        width: 9.3rem;
+        left: 15rem;
+    }
+    #line-up1 {
+        top: 15.7rem;
+        height: 7.7rem;
+        width: 0.5rem;
+        left: 25.5rem;
+    }
+    #line-up2 {
+        top: 8.7rem;
+        height: 7rem;
+        width: 0.5rem;
+        left: 25.5rem;
+    }
+    #line-right1 {
+        top: 27.7rem;
+        height: 0.5rem;
         width: 8rem;
-        left: 23rem;
-        z-index: 6;
+        left: 28rem;
     }
-    #scanner {
-        top: 41.6rem;
-        height: 17rem;
-        width: 12rem;
-        left: 21rem;
-        border-radius: 0 0 1rem 1rem;
+    #line-right2 {
+        top: 27.7rem;
+        height: 0.5rem;
+        width: 10rem;
+        left: 35.8rem;
     }
-    #startbutton {
-        font-size: 1.7rem;
-        top: 13rem;
-        left: 24rem;
+    #line-down1 {
+        top: 31.7rem;
+        height: 5.5rem;
+        width: 0.5rem;
+        left: 26.4rem;
+    }
+    #line-down2 {
+        top: 37rem;
+        height: 7.03rem;
+        width: 0.5rem;
+        left: 26.4rem;
+    }
+    #fixed-mirror {
+        top: 5rem;
+        height: 3.7rem;
+        width: 16rem;
+        left: 18rem;
+    }
+    #beam-splitter {
+        top: 22rem;
+        height: 11rem;
+        width: 8em;
+        left: 22.4rem;
+    }
+    #ir {
+        top: 24.5rem;
+        height: 6.2rem;
+        width: 6.2rem;
+        left: 1.5rem;
+    }
+    #mirror1 {
+        top: 19rem;
+        height: 13.5rem;
+        width: 12.5rem;
+        left: 40.7rem;
+    }
+    #detector {
+        top: 44rem;
+        height: 10rem;
+        width: 8rem;
+        left: 23.7rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #fixed-mirror-heading {
+        font-size: 1.6rem;
+        left: 27.7rem;
+        top: 5.7rem;
+    }
+    #ir-heading {
+        font-size: 1.6rem;
+        left: 1.5rem;
+        top: 21rem;
+    }
+    #moveable-mirror-heading {
+        font-size: 1.6rem;
+        left: 35.8rem;
+        top: 16.2rem;
+    }
+    #beam-splitter-heading {
+        font-size: 1.6rem;
+        width: 2rem;
+        left: 12.7rem;
+        top: 27rem;
+    }
+    #detector-heading {
+        font-size: 1.6rem;
+        left: 25.7rem;
+        top: 43.3rem;
+        width: 5rem;
+    }
+    #line1 {
+        top: 24.9rem;
+        height: 0.5rem;
+        width: 7.4rem;
+        left: 7rem;
+    }
+    #line2 {
+        top: 24.9rem;
+        height: 0.5rem;
+        width: 7.5rem;
+        left: 13rem;
+    }
+    #line-up1 {
+        top: 13.9rem;
+        height: 6.2rem;
+        width: 0.5rem;
+        left: 20.5rem;
+    }
+    #line-up2 {
+        top: 8rem;
+        height: 6rem;
+        width: 0.5rem;
+        left: 20.5rem;
+    }
+    #line-right1 {
+        top: 24.9rem;
+        height: 0.5rem;
+        width: 8rem;
+        left: 23.3rem;
+    }
+    #line-right2 {
+        top: 24.9rem;
+        height: 0.5rem;
+        width: 9rem;
+        left: 30.8rem;
+    }
+    #line-down1 {
+        top: 27.5rem;
+        height: 6.3rem;
+        width: 0.5rem;
+        left: 21.4rem;
+    }
+    #line-down2 {
+        top: 33.7rem;
+        height: 7rem;
+        width: 0.5rem;
+        left: 21.4rem;
+    }
+    #fixed-mirror {
+        top: 5rem;
+        height: 3rem;
+        width: 13rem;
+        left: 14.5rem;
+    }
+    #beam-splitter {
+        top: 20rem;
+        height: 10rem;
+        width: 8rem;
+        left: 18.4rem;
+    }
+    #ir {
+        top: 22.7rem;
+        height: 5rem;
+        width: 5rem;
+        left: 2.1rem;
+    }
+    #mirror1 {
+        top: 18.6rem;
+        height: 11.5rem;
+        width: 12.5rem;
+        left: 34.5rem;
+    }
+    #detector {
+        top: 40.8rem;
+        height: 8rem;
         width: 6rem;
-        z-index: 3;
+        left: 19rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #fixed-mirror-heading {
+        font-size: 1.5rem;
+        left: 8.8rem;
+        top: 7.4rem;
+    }
+    #ir-heading {
+        font-size: 1.5rem;
+        left: 1.5rem;
+        top: 21rem;
+    }
+    #moveable-mirror-heading {
+        font-size: 1.5rem;
+        left: 16.8rem;
+        top: 17.8rem;
+    }
+    #beam-splitter-heading {
+        font-size: 1.5rem;
+        width: 2rem;
+        left: 7rem;
+        top: 26rem;
+    }
+    #detector-heading {
+        font-size: 1.5rem;
+        left: 15.7rem;
+        top: 35.3rem;
+        width: 5rem;
+    }
+    #line1 {
+        top: 24.5rem;
+        height: 0.3rem;
+        width: 4.1rem;
+        left: 4.8rem;
+    }
+    #line2 {
+        top: 24.5rem;
+        height: 0.3rem;
+        width: 3.4rem;
+        left: 8.7rem;
+    }
+    #line-up1 {
+        top: 16.3rem;
+        height: 4.7rem;
+        width: 0.3rem;
+        left: 12.5rem;
+    }
+    #line-up2 {
+        top: 11.5rem;
+        height: 4.8rem;
+        width: 0.3rem;
+        left: 12.5rem;
+    }
+    #line-right1 {
+        top: 24.5rem;
+        height: 0.3rem;
+        width: 3rem;
+        left: 14.7rem;
+    }
+    #line-right2 {
+        top: 24.5rem;
+        height: 0.3rem;
+        width: 4.8rem;
+        left: 15.8rem;
+    }
+    #line-down1 {
+        top: 25.5rem;
+        height: 4.6rem;
+        width: 0.3rem;
+        left: 12.4rem;
+    }
+    #line-down2 {
+        top: 30.1rem;
+        height: 4.5rem;
+        width: 0.3rem;
+        left: 12.4rem;
+    }
+    #fixed-mirror {
+        top: 9.5rem;
+        height: 2rem;
+        width: 9rem;
+        left: 8.5rem;
+    }
+    #beam-splitter {
+        top: 20.8rem;
+        height: 8rem;
+        width: 7rem;
+        left: 10.3rem;
+    }
+    #ir {
+        top: 23rem;
+        height: 3.2rem;
+        width: 3.2rem;
+        left: 1.8rem;
+    }
+    #mirror1 {
+        top: 20rem;
+        height: 8em;
+        width: 8rem;
+        left: 17.5rem;
+    }
+    #detector {
+        top: 35rem;
+        height: 6rem;
+        width: 5rem;
+        left: 10.3rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #fixed-mirror-heading {
+        font-size: 1.4rem;
+        left: 4.5rem;
+        top: 10.5rem;
+        width: 4rem;
+    }
+    #ir-heading {
+        font-size: 1.4rem;
+        width: 4rem;
+        left: 1.1rem;
+        top: 26rem;
+    }
+    #moveable-mirror-heading {
+        font-size: 1.4rem;
+        left: 8.8rem;
+        top: 18.8rem;
+        width: 3rem;
+    }
+    #beam-splitter-heading {
+        font-size: 1.4rem;
+        width: 2rem;
+        left: 9rem;
+        top: 27rem;
+    }
+    #detector-heading {
+        font-size: 1.4rem;
+        left: 5rem;
+        top: 37.8rem;
+        width: 5rem;
+    }
+    #line1 {
+        top: 24.5rem;
+        height: 0.3rem;
+        width: 1.8rem;
+        left: 2.6rem;
+    }
+    #line2 {
+        top: 24.5rem;
+        height: 0.3rem;
+        width: 2rem;
+        left: 4.4rem;
+    }
+    #line-up1 {
+        top: 18.2rem;
+        height: 3.9rem;
+        width: 0.3rem;
+        left: 6.1rem;
+    }
+    #line-up2 {
+        top: 15.5rem;
+        height: 2.8rem;
+        width: 0.3rem;
+        left: 6.1rem;
+    }
+    #line-right1 {
+        top: 24.5rem;
+        height: 0.3rem;
+        width: 1.6rem;
+        left: 7.7rem;
+    }
+    #line-right2 {
+        top: 24.5rem;
+        height: 0.3rem;
+        width: 1.3rem;
+        left: 9.3rem;
+    }
+    #line-down1 {
+        top: 25rem;
+        height: 4.6rem;
+        width: 0.3rem;
+        left: 6.4rem;
+    }
+    #line-down2 {
+        top: 28.1rem;
+        height: 3.4rem;
+        width: 0.3rem;
+        left: 6.4rem;
+    }
+    #fixed-mirror {
+        top: 13.5rem;
+        height: 2rem;
+        width: 7rem;
+        left: 3.1rem;
+    }
+    #beam-splitter {
+        top: 22rem;
+        height: 5rem;
+        width: 3rem;
+        left: 5.5rem;
+    }
+    #ir {
+        top: 23.7rem;
+        height: 1.8rem;
+        width: 1.8rem;
+        left: 0.9rem;
+    }
+    #mirror1 {
+        top: 21.9rem;
+        height: 5rem;
+        width: 4rem;
+        left: 9rem;
+    }
+    #detector {
+        top: 31.5rem;
+        height: 6rem;
+        width: 2.7rem;
+        left: 5.5rem;
     }
 }

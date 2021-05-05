@@ -5,27 +5,23 @@ body {
 
 #layer1 {
     position: relative;
-    z-index: 20;
+    z-index: 90;
+    opacity: 0;
+    top: 2rem;
 }
 #layer1 > * {
     position: absolute;
 }
-#layer1 {
-    opacity: 0;
-    top: 2rem;
-}
-#solprep {
-    position: relative;
-}
 
-#solprep > * {
-    position: absolute;
-}
-#solprep {
-    /* height: 30rem; */
+#sol-prep {
+    position: relative;
     width: 50%;
     top: 1rem;
     left: 2rem;
+}
+
+#sol-prep > * {
+    position: absolute;
 }
 
 #sample {
@@ -33,6 +29,13 @@ body {
     width: 6rem;  
     top: 0rem;
     left: 0rem;
+    cursor: pointer;
+}
+
+#sample-heading {
+    font-size: 2.5rem;
+    left: 0rem;
+    top: 14rem;
 }
 
 #solvent {
@@ -40,25 +43,37 @@ body {
     width: 6rem; 
     top: 0rem;
     left: 13rem;
+    cursor: pointer;
 }
 
-#samplecollect {
-    position: relative;
+#solvent-heading {
+    font-size: 2.5rem;
+    left: 12.5rem;
+    top: 14rem;
 }
-#samplecollect > * {
+
+#sample-collect {
+    position: relative;
+    top: 20rem;
+    left: 5rem;
+}
+#sample-collect > * {
     position: absolute;
 }
 
-#samplecollect {
-    top: 15rem;
-    left: 5rem;
-}
-#emptybottle {
+#empty-bottle {
     height: 13rem;
     width: 6rem; 
     top: 3rem;
     left: 0rem;
     opacity: 0.5;
+    cursor: pointer;
+}
+
+#bottle-heading {
+    font-size: 2.5rem;
+    left: 0rem;
+    top: 17rem;
 }
 
 #solution1 {
@@ -68,6 +83,7 @@ body {
     height: 2rem;
     background-color: rgb(251, 255, 38);
     opacity: 0;
+    cursor: pointer;
 }
 
 #solution2 {
@@ -77,12 +93,13 @@ body {
     height: 4rem;
     background-color: rgb(251, 255, 38);
     opacity: 0;
+    cursor: pointer;
 }
 
-#collectedsol1 {
+#collected-sol1 {
     position: relative;
 }
-#collectedsol1 > * {
+#collected-sol1 > * {
     position: absolute;
 }
 
@@ -102,12 +119,11 @@ body {
     opacity: 0;
 }
 
-#collectedsol2 {
+#collected-sol2 {
     position: relative;
 }
-#collectedsol2 > * {
+#collected-sol2 > * {
     position: absolute;
-    /* top: 30rem; */
 }
 
 #dropper2 {
@@ -130,30 +146,42 @@ body {
     transform: rotate(125deg);
 }
 
-#slideprep {
+#slide-prep {
     position: relative;
-}
-
-#slideprep > * {
-    position: absolute;
-}
-
-#slideprep {
-    top: 40rem;
+    top: 42rem;
     left: 2rem;
+}
+
+#slide-prep > * {
+    position: absolute;
 }
 
 #desiccator {
     height: 15rem;
     top: 0rem;
     left: 0rem;
+    cursor: pointer;
 }
 
-#jrcell {
+#desiccator-heading {
+    font-size: 2.5rem;
+    left: 4rem;
+    top: 16rem;
+}
+
+#jr-cell {
     height:15rem;
     width: 10rem;
     top: 20rem;
     left: 0rem;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#jr-cell-heading {
+    font-size: 2.5rem;
+    left: 4rem;
+    top: 36rem;
     opacity: 0;
 }
 
@@ -165,67 +193,79 @@ body {
     opacity: 0;
     background-color: yellow;
     transform: skew(0deg,-25deg);
-    /* z-index: 1; */
 }
 
 @media screen and (min-width: 480px) and (max-width: 780px) {
-    #solprep {
+    #sol-prep {
         left: 10rem;
     }
-    #slideprep {
+    #slide-prep {
         left: 10rem;
-    }
+    }   
 }
 @media screen and (min-width: 780px) {
-    #slideprep {
+    #slide-prep {
         display: inline;
         top: 5rem;
         left: 30rem;
     }
-    #solprep {
+    #sol-prep {
         left: 2rem;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    #slideprep {
+    #slide-prep {
         display: inline;
         top: 2rem;
         left: 40rem;
     }
-    #solprep {
+    #sol-prep {
         left: 5rem;
     }
 }
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
-    #solprep {
+    #sol-prep {
         left: 2rem;
     }
-    #slideprep {
+    #slide-prep {
         top: 25rem;
         left: 0rem;
     }
-    #samplecollect {
+    #sample-collect {
         top: 10rem;
     }
     #sample {
         height: 7.5rem;
         width: 3rem;  
     }
-    
+    #sample-heading {
+        font-size: 1.3rem;
+        left: 0rem;
+        top: 8rem;
+    } 
     #solvent {
         height: 7.5rem;
         width: 3rem; 
         left: 7rem;
     } 
-
-    #emptybottle {
+    #solvent-heading {
+        font-size: 1.3rem;
+        left: 7rem;
+        top: 8rem;
+    } 
+    #empty-bottle {
         height: 7.5rem;
         width: 3rem; 
         top: 3rem;
         left: 0rem;
     }
+    #bottle-heading {
+        font-size: 1.3rem;
+        left: 0rem;
+        top: 11rem;
+    } 
     #solution1 {
         top: 8.2rem;
         left: 0.1rem;
@@ -243,12 +283,22 @@ body {
         top: 0rem;
         left: 0rem;
     }
-    #jrcell {
+    #desiccator-heading {
+        font-size: 1.3rem;
+        left: 3rem;
+        top: 11rem;
+    } 
+    #jr-cell {
         height:7.5rem;
         width: 5rem;
         top: 15rem;
         left: 2rem;
     }
+    #jr-cell-heading {
+        font-size: 1.3rem;
+        left: 3rem;
+        top: 23rem;
+    } 
     #dropper1 {
         height: 5rem;
         top: 1.3rem;

@@ -1,21 +1,21 @@
 [{
-        "question": "The most effective method of IR spectroscopy is the:",
+        "question": "The IR spectrum is usually given as:",
         "answers": {
-            "a": " Dispersion spectrometer",
-            "b": " Reflection spectrometer",
-            "c": " Deflection spectrometer",
-            "d": " Fourier-Transform spectrometer"
+            "a": " Hertz",
+            "b": " Wavenumber",
+            "c": " Frequency",
+            "d": " Option a and b"
         },
-        "correctAnswer": "d"
+        "correctAnswer": "b"
     },
     {
-        "question": " Infrared spectroscopy provides valuable information about",
+        "question": "The Molecular vibration requires:",
         "answers": {
-            "a": " functional groups",
-            "b": " molecular weight",
-            "c": " Physical properties",
-            "d": " chemical properties"
+            "a": " High energy radiation",
+            "b": " Low-energy radiation",
+            "c": " Least energy radiation",
+            "d": " Gamma radiation"
         },
-        "correctAnswer": "a"
+        "correctAnswer": "b"
     }
 ]

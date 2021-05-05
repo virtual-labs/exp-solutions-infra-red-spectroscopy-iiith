@@ -1,195 +1,237 @@
-body {
-    height: 100%;
-    width: 100%;
-}
-
 #layer2 {
     opacity: 0;
+    z-index: 80;
 }
 
- 
-#ir-collect {
-   position: relative;
-   top: 16.2rem;
-   left: 16rem;
-}
-#ir-collect>* {
-    position: absolute;
-}
-
-
-#ir-plate2 {
-    top: 2em;
-    left: 1em;
-    height: 8em;
-    width: 8em;
-    z-index: 7;
-}
-
-#red-circle1 {
-    top: 4em;
-    left: 3.5em;
-    height: 3em;
-    width: 3em;
-    border-radius: 50%;
-    background-color: red;
-    z-index: 8;
-}
-
-#red-circle2 {
-    top: 5.2em;
-    left: 6.5em;
-    height: 3em;
-    width: 3em;
-    border-radius: 50%;
-    z-index: 8;
-    background-color: red;
-    opacity: 0;
-}
-
-#ir-plate4 {
-    top: -1em;
-    left: 1em;
-    height: 8em;
-    width: 8em;
-    opacity: 0;
-    z-index: 7;
-}
-
-#ir-plate5 {
-    top: 3.5em;
-    left: 4em;
-    height: 8em;
-    width: 8em;
-    opacity: 0;
-    z-index: 7;
-}
-
-#ir-plate3 {
-    top: 2em;
-    left: 18em;
-    height: 8em;
-    width: 8em;
-    z-index: 7;
-}
-
-#plate-collect {
+#all-objects {
     position: relative;
+    left: 0rem;
+    top: -12rem;
 }
 
-#plate-collect>* {
+#all-objects>* {
     position: absolute;
 }
 
-#plate-collect {
-    left: 13.8rem;
-    top: 0rem;
+#create-circle {
+    position: absolute;
+    top: 24rem;
+    height: 30rem;
+    width: 50rem;
+    left: 21rem;
+    background-color: rgb(37, 37, 37);
+    border-radius: 60%;
+    opacity: 1;
+    z-index: 2;
 }
 
-#plate1 {
-    top: 1em;
-    left: 2em;
-    height: 13em;
-    width: 13em;
-    z-index: 6;
+#stand {
+    position: absolute;
+    top: 31.9rem;
+    height: 13.2rem;
+    width: 26rem;
+    left: 32.97rem;
+    opacity: 1;
+    z-index: 3;
 }
 
-#plate2 {
-    left: 10em;
-    top: 1em;
-    height: 13em;
-    width: 13em;
-    z-index: 8;
-    opacity: 0;
+#single-stand {
+    position: absolute;
+    top: 36.6rem;
+    height: 5.7rem;
+    width: 1.2rem;
+    left: 44.45rem;
+    opacity: 1;
+    z-index: 5;
 }
 
-@media screen and (max-width: 800px) {
-    #ir-plate2 {
-        left: -10em;
-        height: 7em;
-        width: 7em;
-    }
-    #ir-plate4 {
-        left: -10em;
-        height: 7em;
-        width: 7em;
-    }
-    #red-circle1 {
-        top: 3.3em;
-        left: -7.9em;
-        height: 3em;
-        width: 3em;
-        border-radius: 50%;
-    }
-    #ir-plate3 {
-        height: 7em;
-        width: 7em;
-        left: 5em;
-    }
-    #plate1 {
-        left: -9em;
-    }
-    #plate2 {
-        left: -1em;
-    }
-    #red-circle2 {
-        left: -4.4em;
-    }
-    #ir-plate5 {
-        left: -6.8em;
+#movable {
+    position: absolute;
+    top: 30rem;
+    height: 6rem;
+    width: 3.6rem;
+    left: 44rem;
+    opacity: 1;
+    transform: rotateY(29deg);
+    z-index: 4;
+}
+
+#scanner {
+    position: absolute;
+    top: 65.6rem;
+    height: 25rem;
+    width: 45rem;
+    left: 23.3rem;
+    opacity: 1;
+    border-radius: 0 0 1rem 1rem;
+}
+
+#start-button {
+    position: absolute;
+    left: 1rem;
+    color: white;
+    background-color: #288EC8;
+    border-radius: 5rem;
+    font-size: 3.5rem;
+    height: 5rem;
+    width: 10rem;
+    left: 40rem;
+    border: none;
+    top: 13rem;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    background-color: #A9A9A9;
+}
+
+@media screen and (max-width: 1400px) {
+    #all-objects {
+        left: -5rem;
     }
 }
 
-@media screen and (max-width: 640px) {
-    #ir-collect {
-        top: 11em;
+@media screen and (max-width: 1130px) {
+    #create-circle {
+        top: 20rem;
+        height: 20rem;
+        width: 28rem;
+        left: 21rem;
+        border-radius: 60%;
     }
-    #plate1 {
+    #single-stand {
+        top: 28.6rem;
+        height: 4.4rem;
+        width: 0.6rem;
+        left: 34.2rem;
+    }
+    #movable {
+        top: 23rem;
+        height: 3.8rem;
+        width: 2rem;
+        left: 33.8rem;
+        transform: rotateY(29deg);
+    }
+    #stand {
+        top: 24.9rem;
+        height: 10.2rem;
+        width: 16rem;
+        left: 26.97rem;
+        opacity: 1;
+    }
+    #scanner {
+        top: 47.6rem;
+        height: 19rem;
+        width: 30rem;
+        left: 20.3rem;
+        border-radius: 0 0 1rem 1rem;
+    }
+    #start-button {
+        font-size: 2rem;
+        top: 11rem;
+        left: 30rem;
         width: 8rem;
-        left: -13em;
-        height: 8em;
     }
-    #plate2 {
-        width: 8em;
-        height: 8em;
-        left: -5em;
+}
+
+@media screen and (max-width: 1400px) {
+    #all-objects {
+        left: -5rem;
     }
-    #ir-plate2 {
-        left: -14em;
-        height: 5em;
-        width: 5em;
+}
+
+@media screen and (max-width: 935px) {
+    #all-objects {
+        left: -20rem;
     }
-    #red-circle1 {
-        top: 3.3em;
-        left: -12.4em;
-        height: 1.8em;
-        width: 1.8em;
-        border-radius: 50%;
+}
+
+@media screen and (max-width: 730px) {
+    #create-circle {
+        top: 20rem;
+        height: 20rem;
+        width: 23rem;
+        left: 21rem;
+        border-radius: 60%;
     }
-    #red-circle2 {
-        top: 3.7em;
-        left: -10.2em;
-        height: 2em;
-        width: 2em;
-        border-radius: 50%;
+    #single-stand {
+        top: 28.6rem;
+        height: 4.4rem;
+        width: 0.6rem;
+        left: 31.7rem;
     }
-    #ir-plate5 {
-        top: 2.5em;
-        left: -11.7em;
-        height: 5em;
-        width: 5em;
+    #movable {
+        top: 23rem;
+        height: 3.3rem;
+        width: 2rem;
+        left: 31.8rem;
+        transform: rotateY(29deg);
     }
-    #ir-plate4 {
-        left: -14em;
-        height: 5em;
-        width: 5em;
+    #stand {
+        top: 24.9rem;
+        height: 10.2rem;
+        width: 16rem;
+        left: 24.5rem;
     }
-    #ir-plate3 {
-        left: -7.8em;
-        height: 5em;
-        width: 5em;
+    #scanner {
+        top: 45.6rem;
+        height: 17rem;
+        width: 22rem;
+        left: 20.3rem;
+        border-radius: 0 0 1rem 1rem;
     }
-    #plate-collect {
-        top: 2em;
+    #start-button {
+        font-size: 2rem;
+        height: 3.5rem;
+        top: 12rem;
+        left: 27rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #create-circle {
+        top: 18rem;
+        height: 20rem;
+        width: 10rem;
+        left: 22rem;
+        border-radius: 60%;
+        z-index: 5;
+    }
+    #single-stand {
+        top: 25.8rem;
+        height: 3.6rem;
+        width: 0.4rem;
+        left: 26.6rem;
+        z-index: 9;
+    }
+    #movable {
+        top: 21rem;
+        height: 3rem;
+        width: 1.3rem;
+        left: 26.5rem;
+        transform: rotateY(29deg);
+        z-index: 7;
+    }
+    #stand {
+        top: 22.9rem;
+        height: 8.2rem;
+        width: 8rem;
+        left: 23rem;
+        z-index: 6;
+    }
+    #scanner {
+        top: 41.6rem;
+        height: 17rem;
+        width: 12rem;
+        left: 21rem;
+        border-radius: 0 0 1rem 1rem;
+    }
+    #start-button {
+        font-size: 1.7rem;
+        top: 13rem;
+        left: 24rem;
+        width: 6rem;
+        z-index: 3;
     }
 }
