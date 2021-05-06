@@ -9,15 +9,15 @@ E= 1/2k(r-r<sub>e</sub>)<sup>2</sup>
 
 For any haormonic oscillator, when the bond vibrates, its enrgy of vibration is changing continually and periodically from kinetic to potential enrgy and back again. The total energy is proportional to the frequency of vibration, and is given as:
 
-E<sub>osc</sub> = h<sub>¶Õosc</sub>
+E<sub>osc</sub> = h<sub>¬¶√çosc</sub>
 
 The elastic nature of the bond has an intrinsic vibrational frequency which is determined by the force constant K of the spring or its stiffness, the masses of the bonded atoms.
 
 <img src="images/equation1.png">
 
-where c is the speed of light, and ¶Ã is the reduced mass of the system which is given by:
+where c is the speed of light, and ¬¶√å is the reduced mass of the system which is given by:
 
-¶Ã = m1m2/m1 + m<sub>2</sub>
+Œº = m1m2/m1 + m<sub>2</sub>
 
 
 The value of the force constant varies from bond to bond. K for a triple bond is three times those of a single bond and for a double bond it is twice those of a single bond. There are two significant features that can be drawn:
