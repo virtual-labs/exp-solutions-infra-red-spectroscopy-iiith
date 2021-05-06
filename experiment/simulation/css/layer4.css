@@ -3,24 +3,6 @@
     z-index: 20;
 }
 
-#graph {
-    position: absolute;
-    width: 40vw;
-    height: 35vw;
-    left: 48vw;
-    top: 63vw;
-    z-index: 2;
-}
-
-#plot2 {
-    position: absolute;
-    width: 40vw;
-    height: 35vw;
-    left: 60vw;
-    top: 63vw;
-    z-index: 2;
-}
-
 #chart-container {
     position: absolute;
     width: 56.3rem;
