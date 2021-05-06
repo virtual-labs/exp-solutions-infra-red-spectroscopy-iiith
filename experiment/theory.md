@@ -15,7 +15,7 @@ The elastic nature of the bond has an intrinsic vibrational frequency which is d
 
 <img src="images/equation1.png">
 
-where c is the speed of light, and ¦Ì is the reduced mass of the system which is given by:
+where c is the speed of light, and μ is the reduced mass of the system which is given by:
 
 μ = m1m2/m1 + m<sub>2</sub>
 
