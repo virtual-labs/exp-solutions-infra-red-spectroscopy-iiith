@@ -33,12 +33,13 @@ b. Fourier-Transform spectrometers
 <img src="images/figure2_exp7.jpg">
 
 Figure 2: The main components of a fourier transform infrared (FTIR) spectrophotometer.
-Picture source: [http://cnx.org/content/m34660/latest/?collection=col10699/latest](http://cnx.org/content/m34660/latest/?collection=col10699/latest)
+Picture source: [Fourier Transform Infrared Spectroscopy of Metal Ligand Complexes](https://cnx.org/content/m34660/latest/?collection=col10699/latest)
 
 FT-IR spectrometers are the modern spectometers that provide the spectrum more rapidly than the dispersive ones. The optical pathway produces a pattern called the interferogram. This is a complex signal which is a plot of intensity versus time. For more practical purposes this time-domine spectrum is converted to a frequency-domain spectrum, that is intensity versus frequency. This conversion is done by a mathematical operation called a Fourier-Transform (FT). FT separates the individual frequencies from the interferogram producing a virtual spectrum identical to the one abtained form dispersive spectrometers. The biggest advantage of using a FT-IR spectometers is that it is possible to collect number of interferograms of the same sample in less than a second. When a fourier-Transform is performed a sum of all the interferograms gives spectrum which has a better signal to noise ratio. Greater speed and greater sensitivity makes FT-IR spectrometers preferred over dispersive spectometers.
 
 <img src="images/figure3_exp7.png">
 
 Figure 3: FT-IR spectrophotometers collects the interferograms of the sample and fourier-transform them to a absorption spectrum.
-Picture source: [http://faculty.sdmiramar.edu/fgarces/LabMatters/Instruments/FTIR/FTIR.htm](http://faculty.sdmiramar.edu/fgarces/LabMatters/Instruments/FTIR/FTIR.htm)
+<!-- Takes to much time in Loading -->
+<!-- Picture source: [Thermo Nicolet](https://faculty.sdmiramar.edu/fgarces/LabMatters/Instruments/FTIR/FTIR.htm)  -->
 
