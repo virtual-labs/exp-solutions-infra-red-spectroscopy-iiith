@@ -294,8 +294,8 @@ async function moveSyringe() {
       easing: "linear",
     });
 
-    let startX = "-1080%";
-    let startY = "-280%";
+    let startX = "-1040%";
+    let startY = "-410%";
     let endX = "240%";
     let endY = "-245%";
 
@@ -304,14 +304,16 @@ async function moveSyringe() {
 
     if (divWidth > 1759) {
       startX = "-1300%";
-      startY = "-250%";
+      startY = "-190%";
       endX = "150%";
       endY = "-135%";
     }
 
     if (divWidth < 769) {
       startX = "260%";
-      startY = "-830%";
+      startY = "-1550%";
+      endX = "120%";
+      endY = "-280%";
     }
 
     a1.add({
