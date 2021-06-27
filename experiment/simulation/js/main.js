@@ -55,14 +55,12 @@ let emptySyringe = async () => {
     await new Promise((resolve) => setTimeout(resolve, 2));
   }
 
-  // document.getElementById("jrcell").setAttribute("onclick", "moveJrCell(0)");
   document.getElementById("jrcell").style.cursor = "pointer";
 };
 
 async function moveJrCell(x) {
   let image = document.getElementById("jrcell");
   image.setAttribute("opacity", "1");
-  // image.style.pointerEvents = "none";
   let a1 = anime.timeline({
     targets: "#jrcell",
     duration: 800,
@@ -487,11 +485,6 @@ async function observe() {
     document.getElementById("observation").innerHTML = "";
     document.getElementById("instruction").innerHTML = "";
 
-    // Syncing Observation messages with Video Speed
-    let timeOuts = [2000, 5000, 3000, 5000];
-
-    // for (let index = 0; index < timeOuts.length; index++) {
-    //   await new Promise((r) => setTimeout(r, timeOuts[index] * speedFactor));
     observeMessage();
 
     await new Promise((r) => setTimeout(r, 8000 * speedFactor));
@@ -522,11 +515,6 @@ async function observe() {
     }, 10000);
   }
 }
-
-// let solvent = document.getElementById("solvent-beaker");
-// solvent.addEventListener("click", function () {
-//   moveSyringe();
-// });
 
 let sample = document.getElementById("sample-beaker");
 sample.addEventListener("click", function () {
