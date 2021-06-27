@@ -199,7 +199,6 @@ async function movePipette() {
     let startY = "150%";
 
     screenWidth();
-    console.log("DivWidth for movePipette: ", divWidth);
 
     if (divWidth > 1759) {
       startY = "-150%";
@@ -298,7 +297,6 @@ async function moveSyringe() {
     let endY = "-245%";
 
     screenWidth();
-    console.log("DivWidth for moveSyringe: ", divWidth);
 
     if (divWidth > 1759) {
       startX = "-1300%";
@@ -414,7 +412,7 @@ function observeMessage() {
     return;
   }
   iter2++;
-  console.log("Exists");
+
   document.getElementById("instruction").innerHTML = observationMessages[iter2];
   document.getElementById("observation").innerHTML = observationMessages[iter2];
 }
@@ -610,10 +608,3 @@ function createGraph() {
   });
   chart.render();
 }
-
-function report() {
-  screenWidth();
-  console.log("DivWidth: ", divWidth);
-}
-
-window.onresize = report;
