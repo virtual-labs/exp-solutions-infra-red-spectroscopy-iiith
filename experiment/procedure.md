@@ -1,10 +1,10 @@
-Follow the procedure given below:
+Follow the procedure given below once all the apparatus has been introduced into the workspace:
 
-1. Click on the sample bottle to transfer small amount (2-5mg) of the substance into the empty sample bottle.
-2. Click on the solvent bottle to transfer 2 to 3ml of the solvent (CCl4) to the sample to prepared a clear solution.
-3. Click on the desiccator to take out the 'solution IR cell'.
-4. Click on the sample solution to draw 1ml of the solution with a syringe.
-5. Click on the solution IR cell to transfer the sample solution until all the air is expelled from the solution cell.
-6. Click on the solution IR cell to place the cell inside the spectrometer.
-7. Click on 'start' button to start the spectrometer.
-8. Click on the evaluate button to spectral analysis.
+1. Click on the Sample Beaker to transfer small amount (around 1mg) of the Sample substance into the empty Solution Beaker.
+2. Click on the Solvent Beaker to transfer 5 ml of the Solvent (methanol) to the Solution Beaker.
+3. Click on the Solution Beaker to shake it and make a clear solution.
+4. Click on the Solution Beaker to draw 1 ml of the solution prepared to load on to the slit of the JR Cell.
+5. Click on the JR Cell to put it back into the Desiccator.
+6. Click on the Observe button in the Control Menu to observe what is happening inside the Dessicator.
+7. Click on the Observe button again to observe the Intensity graph plotted.
+8. Click on the Restart button in the Control Menu to repeat the experiment from scratch.
