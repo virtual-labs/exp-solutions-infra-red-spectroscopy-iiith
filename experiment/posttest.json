@@ -1,21 +1,73 @@
-[{
-        "question": " A typical IR spectrum can be divided into two regions 600 to 1400cm^-1 (right portion) and 1400 to 4000cm^-1 left portion) , the right portion of the spectrum is called",
-        "answers": {
-            "a": " Right region",
-            "b": " Funtional group region",
-            "c": " Finger print region",
-            "d": " Vibrational region"
-        },
-        "correctAnswer": "c"
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. In IR spectroscopy, the vibration between atoms is caused by which of the following?",
+      "answers": {
+        "a": "The overall molecular weight of the molecule",
+        "b": "Dipole moments between atoms",
+        "c": "The movement of electrons to higher energy levels",
+        "d": "The number of protons in a nucleus"
+      },
+      "explanations": {
+        "a": "The atomic weight of the atoms involved in the vibration between atoms affects the vibration, but the molecular weight does not cause the vibration between atoms.",
+        "b": "Infrared (IR) spectroscopy takes advantage of the electrical difference between atoms in a polar bond. These dipole moments, when exposed to infrared radiation, stretch and contract in what appears to be a vibrating motion between the atoms.",
+        "c": "Any transition among electronic energy levels would be captured by the Electronic or UV-Visible spectroscopy.",
+        "d": "Any change in the number of protons will affect the vibration energy levels due to change in its mass, but it is not the primary cause of the vibration between atoms."
+      },
+      "difficulty": "beginner",
+      "correctAnswer": "b"
     },
     {
-        "question": " The O-H group in alcohol and carboxylic acids show at:",
-        "answers": {
-            "a": " Alcohol at 3300cm^-1 and carboxylic acid at 3000cm^-1",
-            "b": " At the same region around 3000cm^-1",
-            "c": " Alcohol at 3000cm^-1 and carboxylic acid at 3300cm^-1",
-            "d": " Cannot say"
-        },
-        "correctAnswer": "a"
+      "question": "2. Which of the following functional groups exhibits the highest frequency in an infrared (IR) spectrum?",
+      "answers": {
+        "a": "Alcohol",
+        "b": "Ester",
+        "c": "Ketone",
+        "d": "Aldehyde"
+      },
+      "explanations": {
+        "a": "An alcohol (-ROH) exhibits a strong, broad absorbance peak at about 3500cm&#8315&#185.",
+        "b": "Carbonyl groups have strong, sharp peaks from 1700cm&#8315&#185 to 1750cm&#8315&#185, depending on the type of carbonyl group. For instance, an ester (-RCO2R'-) has an absorbance at about 1750cm&#8315&#185",
+        "c": "a ketone (-RCOR'-) has an absorbance at around 1710cm&#8315&#185",
+        "d": "an aldehyde (-RCOH) exhibits strong peaks in the range 1720-1740 cm&#8315&#185"
+      },
+      "difficulty": "intermediate",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "3. An unknown compound is analyzed using infrared spectroscopy. A strong, sharp peak is observed at a frequency of 1750cm&#8315&#185. What functional group is present?",
+      "answers": {
+        "a": "Ester",
+        "b": "Saturated ketone",
+        "c": "Unsaturated ketone",
+        "d": "Alcohol"
+      },
+      "explanations": {
+        "a": "An ester has a characteristic IR absorption at about 1750cm&#8315&#185",
+        "b": "A saturated ketone has an absorption at about 1710cm&#8315&#185",
+        "c": "an unsaturated ketone has an absorption between 1650cm&#8315&#185 and 1700cm&#8315&#185",
+        "d": "an alcohol has a strong, broad peak at about 3400cm&#8315&#185"
+      },
+      "difficulty": "intermediate",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "4. Which of the following molecules interferes with the recorded IR spectra when recorded in air?",
+      "answers": {
+        "a": "N&#8322",
+        "b": "O&#8322",
+        "c": "CO&#8322",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "N&#8322 has triple bond due to which it absorbs in mid-IR range",
+        "b": "O&#8322 has double bond due to which it absorbs in mid-IR range",
+        "c": "CO&#8322 has some vibrational modes which absorb in the IR range",
+        "d": ""
+      },
+      "difficulty": "advanced",
+      "correctAnswer": "c"
     }
-]
+  ]
+}
