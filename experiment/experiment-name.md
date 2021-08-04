@@ -1,1 +1,1 @@
-### Instrumentation and Working Principles of Solutions Infra Red (IR) Spectroscopy
+### Instrumentation and Working Principles of Solutions Infra-Red (IR) Spectroscopy
