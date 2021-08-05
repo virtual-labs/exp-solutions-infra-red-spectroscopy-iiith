@@ -38,15 +38,15 @@
     {
       "question": "3. Which of the following chemical changes will IR spectroscopy be able to capture?",
       "answers": {
-        "a": "Rotation of a CO2 molecule.",
-        "b": "Cleavage of C-O bond in CO2.",
-        "c": "Striking of CO2 gas to the walls of the container.",
-        "d": "Excitation of CO2 to a higher electronic state."
+        "a": "Rotation of a CO<sub>2</sub> molecule.",
+        "b": "Cleavage of C-O bond in CO<sub>2</sub>.",
+        "c": "Striking of CO<sub>2</sub> gas to the walls of the container.",
+        "d": "Excitation of CO<sub>2</sub> to a higher electronic state."
       },
       "explanations": {
         "a": "Rotation of any molecule will lead to transitions among its rotational states, leading to Microwave spectroscopy.",
         "b": "C-O bond cleavage occurs due to the vibration of this bond and hence this will include transitions among the vibrational energy levels,leading to IR spectroscopy.",
-        "c": "Striking of CO2 gas to the walls of the container increases the energy of the molecules but does not affect its internal vibrations, and hence cannot be detected by IR spectroscopy.",
+        "c": "Striking of CO<sub>2</sub> gas to the walls of the container increases the energy of the molecules but does not affect its internal vibrations, and hence cannot be detected by IR spectroscopy.",
         "d": "Transitions among electronic energy levels can be captured by UV-Visible spectroscopy. "
       },
       "difficulty": "intermediate",
