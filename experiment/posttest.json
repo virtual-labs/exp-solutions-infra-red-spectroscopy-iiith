@@ -27,16 +27,16 @@
         "d": "Aldehyde"
       },
       "explanations": {
-        "a": "An alcohol (-ROH) exhibits a strong, broad absorbance peak at about 3500cm&#8315&#185.",
-        "b": "Carbonyl groups have strong, sharp peaks from 1700cm&#8315&#185 to 1750cm&#8315&#185, depending on the type of carbonyl group. For instance, an ester (-RCO2R'-) has an absorbance at about 1750cm&#8315&#185",
-        "c": "a ketone (-RCOR'-) has an absorbance at around 1710cm&#8315&#185",
-        "d": "an aldehyde (-RCOH) exhibits strong peaks in the range 1720-1740 cm&#8315&#185"
+        "a": "An alcohol (-ROH) exhibits a strong, broad absorbance peak at about 3500cm<sup>-1</sup>.",
+        "b": "Carbonyl groups have strong, sharp peaks from 1700cm<sup>-1</sup> to 1750cm<sup>-1</sup>, depending on the type of carbonyl group. For instance, an ester (-RCO2R'-) has an absorbance at about 1750cm<sup>-1</sup>",
+        "c": "a ketone (-RCOR'-) has an absorbance at around 1710cm<sup>-1</sup>",
+        "d": "an aldehyde (-RCOH) exhibits strong peaks in the range 1720-1740 cm<sup>-1</sup>"
       },
       "difficulty": "intermediate",
       "correctAnswer": "a"
     },
     {
-      "question": "3. An unknown compound is analyzed using infrared spectroscopy. A strong, sharp peak is observed at a frequency of 1750cm&#8315&#185. What functional group is present?",
+      "question": "3. An unknown compound is analyzed using infrared spectroscopy. A strong, sharp peak is observed at a frequency of 1750cm<sup>-1</sup>. What functional group is present?",
       "answers": {
         "a": "Ester",
         "b": "Saturated ketone",
@@ -44,10 +44,10 @@
         "d": "Alcohol"
       },
       "explanations": {
-        "a": "An ester has a characteristic IR absorption at about 1750cm&#8315&#185",
-        "b": "A saturated ketone has an absorption at about 1710cm&#8315&#185",
-        "c": "an unsaturated ketone has an absorption between 1650cm&#8315&#185 and 1700cm&#8315&#185",
-        "d": "an alcohol has a strong, broad peak at about 3400cm&#8315&#185"
+        "a": "An ester has a characteristic IR absorption at about 1750cm<sup>-1</sup>",
+        "b": "A saturated ketone has an absorption at about 1710cm<sup>-1</sup>",
+        "c": "an unsaturated ketone has an absorption between 1650cm<sup>-1</sup> and 1700cm<sup>-1</sup>",
+        "d": "an alcohol has a strong, broad peak at about 3400cm<sup>-1</sup>"
       },
       "difficulty": "intermediate",
       "correctAnswer": "a"
@@ -55,15 +55,15 @@
     {
       "question": "4. Which of the following molecules interferes with the recorded IR spectra when recorded in air?",
       "answers": {
-        "a": "N&#8322",
-        "b": "O&#8322",
-        "c": "CO&#8322",
+        "a": "N<sub>2</sub>",
+        "b": "O<sub>2</sub>",
+        "c": "CO<sub>2</sub>",
         "d": "None of the above"
       },
       "explanations": {
-        "a": "N&#8322 has triple bond due to which it absorbs in mid-IR range",
-        "b": "O&#8322 has double bond due to which it absorbs in mid-IR range",
-        "c": "CO&#8322 has some vibrational modes which absorb in the IR range",
+        "a": "N<sub>2</sub> has triple bond due to which it absorbs in mid-IR range",
+        "b": "O<sub>2</sub> has double bond due to which it absorbs in mid-IR range",
+        "c": "CO<sub>2</sub> has some vibrational modes which absorb in the IR range",
         "d": ""
       },
       "difficulty": "advanced",
