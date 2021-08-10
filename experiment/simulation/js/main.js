@@ -6,6 +6,21 @@ let speedFactor = 1.0;
 let purple = "#b83dba";
 let blue = "#00a8f3";
 
+const apparatusOptions = [
+  "sample",
+  "solvent",
+  "solution",
+  "device-dessicator",
+  "device-jrcell",
+  "observe",
+];
+
+apparatusOptions.forEach(function (option) {
+  document.getElementById(option).style.pointerEvents = "none";
+});
+
+document.getElementById("sample").style.pointerEvents = "auto";
+
 let fillSyringe = async () => {
   if (overallIteration === 4) {
     document.getElementById("line3").style.stopColor = "orange";
@@ -77,9 +92,11 @@ async function moveJrCell(x) {
       opacity: 0,
     });
 
+    document.getElementById("observe").style.pointerEvents = "auto";
+    //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
     document.getElementById("instruction").innerHTML =
       "Click on Observe button to observe what is happening inside the desiccator and choose video speed according to your own liking.";
-
+    //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
     document.getElementById("observation").innerHTML =
       "Click on Observe button to observe what is happening inside the desiccator and choose video speed according to your own liking.";
   } else if (x === 1) {
@@ -357,31 +374,40 @@ let setupMessages = [
 let setup = 0;
 
 function setupMessage() {
+  //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
   document.getElementById("instruction").innerHTML = setupMessages[setup];
+  //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
   document.getElementById("observation").innerHTML = setupMessages[setup];
   setup++;
+}
+
+function apparatusSetup(visibleID, oldOption, newOption) {
+  document.getElementById(visibleID).style.visibility = "visible";
+  document.getElementById(oldOption).style.pointerEvents = "none";
+  document.getElementById(newOption).style.pointerEvents = "auto";
 }
 
 setupMessage();
 async function visibility(x) {
   if (x === 1 && overallIteration === -4) {
-    document.getElementById("sample-beaker").style.visibility = "visible";
+    apparatusSetup("sample-beaker", "sample", "solvent");
     overallIteration++;
     setupMessage();
   } else if (x === 2 && overallIteration === -3) {
-    document.getElementById("solvent-beaker").style.visibility = "visible";
+    apparatusSetup("solvent-beaker", "solvent", "solution");
     overallIteration++;
     setupMessage();
   } else if (x === 3 && overallIteration === -2) {
-    document.getElementById("solution-beaker").style.visibility = "visible";
+    apparatusSetup("solution-beaker", "solution", "device-dessicator");
     overallIteration++;
     setupMessage();
   } else if (x === 4 && overallIteration === -1) {
-    document.getElementById("desiccator-row").style.visibility = "visible";
+    apparatusSetup("desiccator-row", "device-dessicator", "device-jrcell");
     overallIteration++;
     setupMessage();
   } else if (x === 5 && overallIteration === 0) {
-    document.getElementById("jrcell-row").style.visibility = "visible";
+    apparatusSetup("jrcell-row", "device-jrcell", "restart");
+    document.getElementById("sample-beaker").style.cursor = "pointer";
     overallIteration++;
     changeMessage();
   }
@@ -397,11 +423,11 @@ let instructionMessages = [
 let iter1 = -1;
 function changeMessage() {
   iter1++;
+  //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
   document.getElementById("instruction").innerHTML = instructionMessages[iter1];
+  //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
   document.getElementById("observation").innerHTML = instructionMessages[iter1];
 }
-
-document.getElementById("sample-beaker").style.cursor = "pointer";
 
 let iter2 = -1;
 let observationMessages = [
@@ -415,7 +441,9 @@ function observeMessage() {
   }
   iter2++;
 
+  //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
   document.getElementById("instruction").innerHTML = observationMessages[iter2];
+  //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
   document.getElementById("observation").innerHTML = observationMessages[iter2];
 }
 
@@ -438,10 +466,19 @@ async function restart() {
   document.getElementById("animation-video").style.display = "none";
   document.getElementById("plotted-graph-window").style.display = "none";
 
+  //"head-instructions" is the Heading of the Instructions HTML element that will be visible only in wide screens, i.e., width greater than 768px
   document.getElementById("head-instructions").innerHTML = "Instructions";
+  //"head-observations" is the Heading of the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
   document.getElementById("head-observations").innerHTML = "Instructions";
+  //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
   document.getElementById("instruction").innerHTML = "";
+  //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
   document.getElementById("observation").innerHTML = "";
+  apparatusOptions.forEach(function (option) {
+    document.getElementById(option).style.pointerEvents = "none";
+  });
+  document.getElementById("sample").style.pointerEvents = "auto";
+
   overallIteration = -4;
   iter2 = -1;
   iter1 = -1;
@@ -475,14 +512,20 @@ async function restart() {
 
 async function observe() {
   if (overallIteration === 6) {
+    document.getElementById("observe").style.pointerEvents = "none";
     document.getElementById("slidecontainer").style.display = "block";
     document.getElementById("apparatus-bottles").style.display = "none";
     document.getElementById("apparatus-desiccator").style.display = "none";
     document.getElementById("animation-video").style.display = "block";
     document.getElementById("animation-bottom-right").play();
+
+    //"head-instructions" is the Heading of the Instructions HTML element that will be visible only in wide screens, i.e., width greater than 768px
     document.getElementById("head-instructions").innerHTML = "Observations";
+    //"head-observations" is the Heading of the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
     document.getElementById("head-observations").innerHTML = "Observations";
+    //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
     document.getElementById("observation").innerHTML = "";
+    //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
     document.getElementById("instruction").innerHTML = "";
 
     observeMessage();
@@ -492,14 +535,18 @@ async function observe() {
     if (!restartAnimation) {
       overallIteration++;
 
+      document.getElementById("observe").style.pointerEvents = "auto";
+      //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
       document.getElementById("instruction").innerHTML =
         "Click on Observe option in the Control Menu again to see the graph.";
+      //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
       document.getElementById("observation").innerHTML =
         "Click on Observe option in the Control Menu again to see the graph.";
     }
   } else if (overallIteration === 7) {
     observeMessage();
 
+    document.getElementById("observe").style.pointerEvents = "none";
     document.getElementById("slidecontainer").style.display = "none";
 
     document.getElementById("animation-video").style.display = "none";
@@ -508,8 +555,10 @@ async function observe() {
 
     overallIteration++;
     setTimeout(function () {
+      //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
       document.getElementById("instruction").innerHTML =
         "Click on Restart option in the Control Menu to restart the experiment from scratch.";
+      //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
       document.getElementById("observation").innerHTML =
         "Click on Restart option in the Control Menu to restart the experiment from scratch.";
     }, 10000);
@@ -587,5 +636,6 @@ function createGraph() {
     ],
   };
 
-  Plotly.newPlot("chart-container", data, layout);
+  var config = { responsive: true };
+  Plotly.newPlot("chart-container", data, layout, config);
 }
