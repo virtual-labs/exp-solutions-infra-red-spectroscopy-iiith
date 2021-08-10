@@ -496,7 +496,7 @@ async function restart() {
   restartAnimation = true;
 
   document.getElementById("solvent-beaker").style.cursor = "default";
-  document.getElementById("sample-beaker").style.cursor = "pointer";
+  document.getElementById("sample-beaker").style.cursor = "default";
   document.getElementById("solution-beaker").style.cursor = "default";
 
   // Resetting the Solution Beaker
