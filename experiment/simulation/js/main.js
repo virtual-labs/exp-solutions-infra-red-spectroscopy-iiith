@@ -636,6 +636,6 @@ function createGraph() {
     ],
   };
 
-  var config = { responsive: true };
+  let config = { responsive: true };
   Plotly.newPlot("chart-container", data, layout, config);
 }
