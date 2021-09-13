@@ -1,21 +1,73 @@
-[{
-        "question": "The IR spectrum is usually given as:",
-        "answers": {
-            "a": " Hertz",
-            "b": " Wavenumber",
-            "c": " Frequency",
-            "d": " Option a and b"
-        },
-        "correctAnswer": "b"
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What spectrum of light does IR spectroscopy correspond to?",
+      "answers": {
+        "a": "0.01-10 nm wavelength",
+        "b": "10-400nm wavelength",
+        "c": "400-700nm wavelength",
+        "d": "700nm-1mm wavelength"
+      },
+      "explanations": {
+        "a": "This range corresponds to X-rays.",
+        "b": "This range corresponds to Ultraviolet rays.",
+        "c": "This range corresponds to Visible light.",
+        "d": "This range corresponds to Infra-red rays (IR)."
+      },
+      "difficulty": "beginner",
+      "correctAnswer": "d"
     },
     {
-        "question": "The Molecular vibration requires:",
-        "answers": {
-            "a": " High energy radiation",
-            "b": " Low-energy radiation",
-            "c": " Least energy radiation",
-            "d": " Gamma radiation"
-        },
-        "correctAnswer": "b"
+      "question": "2. What type of molecular phenomenon does IR spectroscopy correspond to?",
+      "answers": {
+        "a": "Molecular Rotation",
+        "b": "Molecular Vibration",
+        "c": "Electronic Excitation",
+        "d": "Molecular Translation"
+      },
+      "explanations": {
+        "a": "Molecular rotation corresponds to Microwave spectroscopy.",
+        "b": "Molecular Vibration corresponds to Infra red spectroscopy",
+        "c": "Electronic vibration corresponds to Ultraviolet - visible spectroscopy",
+        "d": "Molecular translation would correspond to X-rays if at all."
+      },
+      "difficulty": "beginner",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "3. Which of the following chemical changes will IR spectroscopy be able to capture?",
+      "answers": {
+        "a": "Rotation of a CO<sub>2</sub> molecule.",
+        "b": "Cleavage of C-O bond in CO<sub>2</sub>.",
+        "c": "Striking of CO<sub>2</sub> gas to the walls of the container.",
+        "d": "Excitation of CO<sub>2</sub> to a higher electronic state."
+      },
+      "explanations": {
+        "a": "Rotation of any molecule will lead to transitions among its rotational states, leading to Microwave spectroscopy.",
+        "b": "C-O bond cleavage occurs due to the vibration of this bond and hence this will include transitions among the vibrational energy levels,leading to IR spectroscopy.",
+        "c": "Striking of CO<sub>2</sub> gas to the walls of the container increases the energy of the molecules but does not affect its internal vibrations, and hence cannot be detected by IR spectroscopy.",
+        "d": "Transitions among electronic energy levels can be captured by UV-Visible spectroscopy. "
+      },
+      "difficulty": "intermediate",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "4. Which of the following statements is true concerning infrared (IR) spectroscopy?",
+      "answers": {
+        "a": "IR spectroscopy is used to determine the frequency of vibrations between atoms",
+        "b": "The fingerprint region is most easily used to determine the functional groups in the molecule",
+        "c": "IR spectroscopy is used to determine the shape of the carbon backbone",
+        "d": "IR spectroscopy can be used to easily determine molecular mass"
+      },
+      "explanations": {
+        "a": "IR spectroscopy is most commonly used to determine the functional groups found in the molecule being observed. This is done by observing the vibration frequencies between atoms in the molecule.",
+        "b": "IR does not easily reveal the size or shape of the molecule's carbon skeleton.",
+        "c": "Although the fingerprint region is unique for every molecule, it is very difficult to read when attempting to determine the molecule's functional groups.",
+        "d": "IR spectroscopy cannot be used to determine molecular mass but can be used to determine the change in molecular mass due to change of an atom with its isotope."
+      },
+      "difficulty": "advanced",
+      "correctAnswer": "a"
     }
-]
+  ]
+}
