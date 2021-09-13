@@ -1,0 +1,73 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. In IR spectroscopy, the vibration between atoms is caused by which of the following?",
+      "answers": {
+        "a": "The overall molecular weight of the molecule",
+        "b": "Dipole moments between atoms",
+        "c": "The movement of electrons to higher energy levels",
+        "d": "The number of protons in a nucleus"
+      },
+      "explanations": {
+        "a": "The atomic weight of the atoms involved in the vibration between atoms affects the vibration, but the molecular weight does not cause the vibration between atoms.",
+        "b": "Infrared (IR) spectroscopy takes advantage of the electrical difference between atoms in a polar bond. These dipole moments, when exposed to infrared radiation, stretch and contract in what appears to be a vibrating motion between the atoms.",
+        "c": "Any transition among electronic energy levels would be captured by the Electronic or UV-Visible spectroscopy.",
+        "d": "Any change in the number of protons will affect the vibration energy levels due to change in its mass, but it is not the primary cause of the vibration between atoms."
+      },
+      "difficulty": "beginner",
+      "correctAnswer": "b"
+    },
+    {
+      "question": "2. Which of the following functional groups exhibits the highest frequency in an infrared (IR) spectrum?",
+      "answers": {
+        "a": "Alcohol",
+        "b": "Ester",
+        "c": "Ketone",
+        "d": "Aldehyde"
+      },
+      "explanations": {
+        "a": "An alcohol (-ROH) exhibits a strong, broad absorbance peak at about 3500cm<sup>-1</sup>.",
+        "b": "Carbonyl groups have strong, sharp peaks from 1700cm<sup>-1</sup> to 1750cm<sup>-1</sup>, depending on the type of carbonyl group. For instance, an ester (-RCO2R'-) has an absorbance at about 1750cm<sup>-1</sup>",
+        "c": "a ketone (-RCOR'-) has an absorbance at around 1710cm<sup>-1</sup>",
+        "d": "an aldehyde (-RCOH) exhibits strong peaks in the range 1720-1740 cm<sup>-1</sup>"
+      },
+      "difficulty": "intermediate",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "3. An unknown compound is analyzed using infrared spectroscopy. A strong, sharp peak is observed at a frequency of 1750cm<sup>-1</sup>. What functional group is present?",
+      "answers": {
+        "a": "Ester",
+        "b": "Saturated ketone",
+        "c": "Unsaturated ketone",
+        "d": "Alcohol"
+      },
+      "explanations": {
+        "a": "An ester has a characteristic IR absorption at about 1750cm<sup>-1</sup>",
+        "b": "A saturated ketone has an absorption at about 1710cm<sup>-1</sup>",
+        "c": "an unsaturated ketone has an absorption between 1650cm<sup>-1</sup> and 1700cm<sup>-1</sup>",
+        "d": "an alcohol has a strong, broad peak at about 3400cm<sup>-1</sup>"
+      },
+      "difficulty": "intermediate",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "4. Which of the following molecules interferes with the recorded IR spectra when recorded in air?",
+      "answers": {
+        "a": "N<sub>2</sub>",
+        "b": "O<sub>2</sub>",
+        "c": "CO<sub>2</sub>",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "N<sub>2</sub> has triple bond due to which it absorbs in mid-IR range",
+        "b": "O<sub>2</sub> has double bond due to which it absorbs in mid-IR range",
+        "c": "CO<sub>2</sub> has some vibrational modes which absorb in the IR range",
+        "d": ""
+      },
+      "difficulty": "advanced",
+      "correctAnswer": "c"
+    }
+  ]
+}
